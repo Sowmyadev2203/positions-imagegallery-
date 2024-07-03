@@ -7,63 +7,46 @@
     <style>
     .pic1{
         position: relative;
-        height: 90px;
-        margin-left: 50px;
+        height: 100px;
+        width: 150px;
+        left: 30px;
+        top: -300px;
     }
     .pic2{
         position: absolute;
-        height: 90px;
-        margin-left: 10px;
-        margin-top:1px;
+        height: 100px;
+        margin-left: 40px;
+        top:74px;
     }
     .pic3{
         position: relative;
-        height: 90px;
+        height: 100px;
         width: 145px;
-        margin-left: 158px;
+        margin-left:210px;
+        top: -301px;
     }
     .pic4{
         position: absolute;
-        height: 90px;
-        width: 145px;
-        margin-left:50px; 
-        margin-top: 10px;
+        height: 100px;
+        width:147px;
+        left:40px; 
+        top:190px;
     }
     .pic5{
         position: absolute;
-        height: 90px;
-        width: 139px;
-        margin-left: 210px;
-        margin-top:9px;
+        height: 100px;
+        width: 150px;
+        left: 206px;
+        top:190px;
     }
     .pic6{
         position: relative;
-        height: 90px;
-        width: 142px;
+        height: 100px;
+        width: 150px;
         margin-left: 360px;
-        margin-top: 10px;
+        top: -290px;
     }
-    .pic7{
-        position: relative;
-        height: 90px;
-        width: 145px;
-        margin-left: 50px;
-        margin-top: 10px;
-    }
-    .pic8{
-        position: absolute;
-        height: 90px;
-        width: 139px;
-        margin-left:15px;
-        margin-top:9px;
-    }
-    .pic9{
-        position: relative;
-        height: 90px;
-        width: 142px;
-        margin-left:165px;
-        margin-top: 10px;
-    }
+
     .w1{
         position: fixed;
         font-size:50px;
@@ -71,21 +54,80 @@
         top: 120px;
         margin-left:65px;
     }
+    .n1{
+       position: relative; 
+       color: rgb(13, 11, 16);
+       font-size: 1.3pc;
+       left: 64px;
+       top: 80px;
+       z-index:2;
+    }
+    .n2{
+       position: relative; 
+       color: rgb(13, 11, 16);
+       font-size:1.0pc;
+       left: 210px;
+       top: -6px;
+       z-index: 2;
+    }
+    .n3{
+       position: relative; 
+       color: rgb(13, 11, 16);
+       font-size:1pc;
+       left: 371px;
+       top:-55px;
+       z-index: 2;
+    }
+    .n4{
+       position: relative; 
+       color: rgb(13, 11, 16);
+       font-size:1.5pc;
+       left:55px;
+       top:20px;
+       z-index: 2;
+    }
+    .n5{
+       position: relative; 
+       color: rgb(13, 11, 16);
+       font-size:1.5pc;
+       left:220px;
+       top:-20px;
+       z-index: 2;
+    }
+    .n6{
+       position: relative; 
+       color: rgb(13, 11, 16);
+       font-size:1.5pc;
+       left:400px;
+       top:-80px;
+       z-index: 2;
+    }
+    
+
+    .md{
+        border: 2px solid black;
+        width: 550px;
+        height: 295px;
+        margin-top:40px;
+    }
 
 </style>
 </head>
 <body>
-    
-    <img class="pic1" src="./beach.jpg"/> 
-    <img class="pic2" src="./northernlights.jpg"/> 
-    <img class="pic3" src="./sea.jpg"/> <br> 
-    <img class="pic4" src="./munar.jpg"/> 
-    <img class="pic5" src="./beach.jpg"/>      
-    <img class="pic6" src="./river.jpg"/> <br>
-    <img class="pic7" src="./northernlights.jpg"/>
-    <img class="pic8" src="./sea.jpg"/>
-    <img class="pic9" src="./river.jpg"/>
-
+    <div class="md">
+    <p class="n1">BEACH</p>
+    <p class="n2">NORTHERN <br>LIGHTS</p> 
+    <p class="n3">BIOLUMINISCENT<br> SEA</p>
+    <p class="n4">MUNAR</p>
+    <p class="n5">BEACH</p>
+    <p class="n6">RIVER</p>
+    <img class="pic1" src="./beach.jpg"/>
+    <img class="pic2" src="./northernlights.jpg"/>
+    <img class="pic3" src="./sea.jpg"/><br> 
+    <img class="pic4" src="./munar.jpg"/>
+    <img class="pic5" src="./beach.jpg"/>    
+    <img class="pic6" src="./river.jpg"/>
+    </div>
    <h1 class="w1"> IMAGE GALLERY </h1>
 
 </body>
